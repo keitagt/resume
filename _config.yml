@@ -1,0 +1,63 @@
+# Site settings
+title: "Général M'Bemba Moussa Keita"
+description: "Biographie du Général M'Bemba Moussa Keita - Armée Malienne"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "false"
+resume_name:                    "M'Bemba Moussa Keita"
+resume_title:                   "Général de l'Armée Malienne"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "donot@send.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+223 1234"
+resume_contact_address:         "Bamako, Mali"
+
+resume_header_contact_info:     "Bamako, Mali • +223 1234 • donot@send.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>Le Général M’Bemba Moussa Kéita est un officier supérieur, issu de la toute première promotion du célèbre Prytanée Militaire de Kati (1981-1988) et de la 14ème promotion de l’Ecole Militaire Interarmes (1988-1991).</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "no"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      false
+resume_section_education:       false
+resume_section_projects:        false
+resume_section_skills:          false
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  # resume_github_url:            "https://github.com/"
+  resume_twitter_url:           "https://twitter.com/"
+  # resume_dribbble_url:          "https://dribbble.com/"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "https://mbembamoussakeita.com"
+  # resume_medium_url:            "https://medium.com/"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
