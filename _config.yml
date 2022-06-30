@@ -1,6 +1,11 @@
 # Site settings
 title: "Général M'Bemba Moussa Keita"
-description: "Biographie du Général M'Bemba Moussa Keita - Armée Malienne"
+tagline: "La biographie du Général M'Bemba Moussa Keita - officier supérieur de l'Armée Malienne"
+description: "Le Général M’Bemba Moussa Keita est un officier supérieur, issu de la toute première promotion du célèbre Prytanée Militaire de Kati (1981-1988) et de la 14ème promotion de l’Ecole Militaire Interarmes (1988-1991)."
+url: "https://mbembamoussakeita.com/"
+author:
+  name: "Général M'Bemba Moussa Keita"
+logo: "/images/avatar.png"
 
 # Build settings
 markdown: kramdown
@@ -9,7 +14,7 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "false"
+resume_avatar:                  "true"
 resume_name:                    "M'Bemba Moussa Keita"
 resume_title:                   "Général de l'Armée Malienne"
 
@@ -61,3 +66,7 @@ resume_theme:                   default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
+
+#j
+plugins:
+  - jekyll-seo-tag
