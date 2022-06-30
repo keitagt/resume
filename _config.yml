@@ -6,6 +6,7 @@ url: "https://mbembamoussakeita.com/"
 author:
   name: "Général M'Bemba Moussa Keita"
 logo: "/images/avatar.png"
+locale: "fr_FR"
 
 # Build settings
 markdown: kramdown
